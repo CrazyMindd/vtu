@@ -10,7 +10,7 @@ import tgcrypto
 import subprocess
 import concurrent.futures
 
-from utils import progress_bar
+from .utils import progress_bar
 
 from pyrogram import Client, filters
 from pyrogram.types import Message
