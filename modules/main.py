@@ -8,7 +8,8 @@ import requests
 import subprocess
 import wget
 #import core as helper
-import modules.core as helper
+#import modules.core as helper
+import helper
 
 from utils import progress_bar
 from vars import api_id, api_hash, bot_token
